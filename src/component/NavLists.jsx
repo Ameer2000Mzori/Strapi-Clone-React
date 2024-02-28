@@ -7,43 +7,26 @@ const NavLists = ({ dataValues }) => {
   console.log(dataValues)
 
   return (
-    <>
-      <div className="w-[90%] h-[200px] bg-slate-400">
-        <ul>
+    <div className="w-full h-[200px]">
+      <div className="h-[10%]"></div>
+      <div className="bg-blue-300 h-[80%] rounded-md">
+        <ul className="flex flex-row flex-wrap text-start items-start p-4 justify-start gap-4">
           {dataValues === 'HOME' ? (
             <>
-              <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a href="#">About</a>
-              </li>
-              <li>
-                <a href="#">Services</a>
-              </li>
-              <li>
-                <a href="#">Contact</a>
-              </li>
+              <h1>home</h1>
+              <h1>about</h1>
+              <h1>pricing</h1>
             </>
           ) : (
             <>
-              <li>
-                <a href="#">ABOUT US</a>
-              </li>
-              <li>
-                <a href="#">WHAT WE DO</a>
-              </li>
-              <li>
-                <a href="#">PLANINGS</a>
-              </li>
-              <li>
-                <a href="#">more</a>
-              </li>
+              <h1>things</h1>
+              <h1>stuff</h1>
+              <h1>more stuff</h1>
             </>
           )}
         </ul>
       </div>
-    </>
+    </div>
   )
 }
 

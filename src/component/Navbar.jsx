@@ -13,7 +13,10 @@ const Navbar = () => {
   }
 
   return (
-    <div onMouseLeave={() => setUserIsHovering(false)} className="relative">
+    <div
+      onMouseLeave={() => setUserIsHovering(false)}
+      className="relative text-center items-center justify-center"
+    >
       <nav className="w-full h-12 bg-blue-500 text-white flex justify-center items-center ">
         <ul
           onMouseLeave={() => setUserIsHovering(false)}
@@ -34,7 +37,10 @@ const Navbar = () => {
         </ul>
       </nav>
       {userIsHovering && (
-        <div onMouseEnter={() => setUserIsHovering(true)}>
+        <div
+          className=" absolute top-[3rem] left-[50%] w-[50vw] translate-x-[-50%] flex flex-row text-center items-center justify-center"
+          onMouseEnter={() => setUserIsHovering(true)}
+        >
           <NavLists dataValues={dataValues} />
         </div>
       )}
