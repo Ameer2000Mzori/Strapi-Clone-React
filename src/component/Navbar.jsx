@@ -13,12 +13,12 @@ const Navbar = () => {
   }
 
   return (
-    <div
-      onMouseLeave={() => setUserIsHovering(false)}
-      className="relative" // Ensure the nav and NavLists are positioned correctly
-    >
-      <nav className="w-full h-12 bg-blue-500 text-white flex justify-center items-center">
-        <ul className="flex items-center justify-center gap-8 cursor-pointer">
+    <div onMouseLeave={() => setUserIsHovering(false)} className="relative">
+      <nav className="w-full h-12 bg-blue-500 text-white flex justify-center items-center ">
+        <ul
+          onMouseLeave={() => setUserIsHovering(false)}
+          className="flex items-center justify-center gap-8 cursor-pointer h-[100%]"
+        >
           <li data-value="HOME" onMouseEnter={() => handleMouseEnter('HOME')}>
             <p>HOME</p>
           </li>
