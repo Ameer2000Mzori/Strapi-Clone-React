@@ -18,7 +18,7 @@
 
 # 📖 About This Project <a name="about-project"></a>
 
-> Real Estate Website is a website created with the MERN stack. With additional npm packages, you can create an account, delete an account, post a house for sale or rent, add favorites, remove favorites, and search for houses. Download the project for a demo test.
+> Strapi-Clone-React is created using ReactJS and styled with TailwindCSS. For cleaner code, Prettier is utilized. In this project, I'm utilizing the Context API for learning purposes. Please check out the sample images or download the app for a better understanding.
 
 # Sample Of Website <a name="Sample-Of-Website"></a>
 
@@ -36,11 +36,7 @@
   <li><a href="https://tailwindcss.com/">Tailwindcss</a></li>
   <li><a href="https://en.wikipedia.org/wiki/JavaScript">Javascript</a></li>
   <li><a href="https://react.dev/">React</a></li>
-  <li><a href="https://nodejs.org/en">Nodejs</a></li>
-  <li><a href="https://expressjs.com/">Expressjs</a></li>
-  <li><a href="https://www.mongodb.com/">Mongodb</a></li>
- <li><a href="https://prettier.io/">Prettier</a></li>
-  <li><a href="https://eslint.org/">Eslint</a></li>
+  <li><a href="https://prettier.io/">Prettier</a></li>
   </ul>
 </details>
 
@@ -53,17 +49,7 @@
 - **[TAILWIND ]**
 - **[JAVASCRIPT ]**
 - **[REACT ]**
-
-- **[BACKEND ]**
-- **[NODE.JS ]**
-- **[EXPRESS.JS ]**
-- **[MANGO.DB ]**
-
-- **[TOOLS ]**
-- **[ESLINT ]**
 - **[PRETTIER ]**
-
-- **[AND MORE ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
