@@ -1,11 +1,9 @@
 import React, { useState, useContext } from 'react'
-import { NavListContext } from './NavLists.jsx'
 import NavLists from './NavLists.jsx'
 
 const Navbar = () => {
   const [userIsHovering, setUserIsHovering] = useState(false)
   const [dataValues, setDataValues] = useState('')
-  const contextValue = useContext(NavListContext)
 
   const handleMouseEnter = (dataVal) => {
     setDataValues(dataVal)

@@ -1,8 +1,5 @@
-import React, { createContext } from 'react'
+import React from 'react'
 
-export const NavListContext = createContext()
-
-console.log(NavListContext)
 const NavLists = ({ dataValues }) => {
   console.log(dataValues)
 
