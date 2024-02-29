@@ -1,6 +1,15 @@
-import react from 'react'
+// App.js
+import React from 'react'
+import Home from './component/Home.jsx'
+import Navbar from './component/Navbar.jsx'
+
 function App() {
-  return <h1>Hello World</h1>
+  return (
+    <>
+      <Navbar />
+      <Home />
+    </>
+  )
 }
 
 export default App
