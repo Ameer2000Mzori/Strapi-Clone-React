@@ -1,9 +1,6 @@
 import React, { useState } from 'react'
 
 const NavLists = ({ dataValues }) => {
-  console.log(dataValues)
-  const [currentHover, setCurrentHover] = useState('')
-
   const categoryLinks = {
     HOME: [
       { name: 'Community Edition', link: '/home-1' },
@@ -21,16 +18,6 @@ const NavLists = ({ dataValues }) => {
       { name: 'Link 1 pricing', link: '/pricing-1' },
       { name: 'Link 2', link: '/pricing-2' },
     ],
-  }
-
-  console.log(categoryLinks[`${dataValues}`][0].name)
-
-  const handleMouseEnter = (category) => {
-    setCurrentHover(category)
-  }
-
-  const handleMouseLeave = () => {
-    setCurrentHover('')
   }
 
   return (
