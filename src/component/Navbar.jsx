@@ -36,7 +36,7 @@ const Navbar = () => {
       </nav>
       {userIsHovering && (
         <div
-          className=" absolute top-[3rem] left-[50%] w-[50vw] translate-x-[-50%] flex flex-row text-center items-center justify-center"
+          className=" absolute top-[3rem] left-[50%] w-[70vw] translate-x-[-50%] flex flex-row text-center items-center justify-center"
           onMouseEnter={() => setUserIsHovering(true)}
         >
           <NavLists dataValues={dataValues} />
